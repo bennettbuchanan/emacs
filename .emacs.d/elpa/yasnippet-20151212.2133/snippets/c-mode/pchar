@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: print_char
+# key: pchar
+# --
+print_char('$1');

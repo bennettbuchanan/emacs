@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: int
+# key: int
+# --
+int main($1)
+{
+	$2
+}

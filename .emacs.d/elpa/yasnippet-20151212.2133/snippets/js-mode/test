@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : test
+# --
+
+this is a test: $1;

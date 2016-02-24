@@ -1,0 +1,184 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/keep_calm_and_love_programming/" . "fizzbuzz/")
+ ("/Users/bennettbuchanan/Desktop/keep_calm_and_love_programming/" . "fizzbuzz/")
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/d/" . "fizzbuzz/")
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/" . "keep_calm_and_love_programming/")
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-sysadmin_devops/" . "what_hath_night_to_do_with_sleep/")
+ ("/usr/" . "include/")
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-higher_level_programming/" . "discover_python/")
+ ("/Users/bennettbuchanan/Desktop/holberton/" . "forMigration/")
+ ("/" . "Users/")
+ ("/Users/bennettbuchanan/Desktop/visualizations/D3/" . "stackedBarChart/")
+ ("/Users/bennettbuchanan/Desktop/visualizations/" . "D3/")
+ ("/Users/bennettbuchanan/.emacs.d/elpa/yasnippet-20151212.2133/snippets/" . "c-mode/")
+ ("/Users/bennettbuchanan/.emacs.d/elpa/yasnippet-20151212.2133/" . "snippets/")
+ ("/Users/bennettbuchanan/.emacs.d/elpa/" . "yasnippet-20151212.2133/")
+ ("/Users/bennettbuchanan/.emacs.d/" . "elpa/")
+ ("/Users/" . "bennettbuchanan/")
+ ("/Users/bennettbuchanan/Desktop/development/" . "css/")
+ ("/Users/bennettbuchanan/Desktop/responsive/builds/" . "development/")
+ ("/Users/bennettbuchanan/Desktop/responsive/" . "builds/")
+ ("/Users/bennettbuchanan/Desktop/jolene_website/jolene_site_new/" . "builds/")
+ ("/Users/bennettbuchanan/Desktop/jolene_website/" . "jolene_site_new/")
+ ("/Users/bennettbuchanan/Desktop/mangalam_research/" . "BTW Website HTML/")
+ ("/Users/bennettbuchanan/Desktop/" . "impossible_octopus_fitness_farm-clone_project/")
+ ("/Users/bennettbuchanan/" . "Desktop/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/bennettbuchanan/"
+ "/Users/bennettbuchanan/Desktop/impossible_octopus_fitness_farm-clone_project/"
+ "/Users/bennettbuchanan/.emacs.d/elpa/yasnippet-20151212.2133/snippets/c-mode/"
+ "/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/keep_calm_and_love_programming/"
+ "/Users/bennettbuchanan/Desktop/C_reefinery/"
+ "/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/keep_calm_and_love_programming/fizzbuzz/"
+ "/Users/bennettbuchanan/Desktop/keep_calm_and_love_programming/"
+ "/Users/bennettbuchanan/Desktop/"
+ "/Users/bennettbuchanan/Desktop/keep_calm_and_love_programming/fizzbuzz/"
+ "/Users/bennettbuchanan/.emacs.d/elpa/ido-vertical-mode-20151003.1833/"
+ "/Users/bennettbuchanan/.emacs.d/elpa/multiple-cursors-20151205.1225/"
+ "/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/dreams_and_dedication_are_a_powerful_combination/"
+ "/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/d/"
+ "/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/d/fizzbuzz/"
+ "/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/i_m_not_in_the_loop/"
+ "/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/"
+ "/Users/bennettbuchanan/Desktop/holbertonschool-sysadmin_devops/security_isn_t_something_that_you_buy_it_s_something_you_do/"
+ "/Users/bennettbuchanan/Desktop/holbertonschool-sysadmin_devops/what_hath_night_to_do_with_sleep/"
+ "/Users/bennettbuchanan/Desktop/i_m_not_in_the_loop/"
+ "/usr/include/"
+ "/Users/bennettbuchanan/Desktop/holbertonschool-higher_level_programming/discover_python/"
+ "/Users/bennettbuchanan/Desktop/holberton/forMigration/"
+ "/Users/bennettbuchanan/Desktop/visualizations/D3/stackedBarChart/"
+ "/Users/bennettbuchanan/Desktop/mangalam_research/BTW Website HTML/"
+ "/Users/bennettbuchanan/Desktop/development/"
+ "/Users/bennettbuchanan/Desktop/jolene_website/jolene_site_new/builds/"
+ "/Users/bennettbuchanan/Desktop/responsive/builds/development/"
+ "/Users/bennettbuchanan/Desktop/jolene_website/"
+ "/Users/bennettbuchanan/Desktop/holberton/personal_website_code/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "index.html"
+ "subl"
+ "twitter.css"
+ "pchar"
+ "printf"
+ "1-main.c"
+ "test"
+ "malloc"
+ "1-uppercase.c"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/bennettbuchanan/Desktop/impossible_octopus_fitness_farm-clone_project/" (22217 23501 0 0) "twitter.css" "README.md" "mystatuses.html" "index.html" "behavior.js" "allusers.html" ".git/" "#index.html#" "../" "./")
+
+ ("/Users/bennettbuchanan/" (22217 23488 0 0) "www.credomobile.com.webloc" "wordle.png" "VirtualBox VMs/" "Vagrantfile~" "Vagrantfile" "Untitled.png" "test_app/" "subl" "RMAIL" "retest_app/" "Public/" "Pictures/" "npm-debug.log" "News/" "Music/" "Movies/" "mbox" "Library/" "index.html" "git-completion.bash" "example/" "emacs_rocks_init.txt" "emacs_file/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "dead.letter" "Creative Cloud Files (1)/" "Creative Cloud Files/" "Applications/" ".viminfo" ".vim/" ".vagrant.d/" ".vagrant/" ".v8flags.4.5.103.35.bennettbuchanan.json" ".Trash/" ".tilemill/" ".subversion/" ".ssh/" ".SMART-customer-experience-program-shared-uuid" ".rbenv/" ".profile" ".oracle_jre_usage/" ".npm/" ".newsrc-dribble~" ".newsrc-dribble" ".mplayer/" ".matplotlib/" ".lesshst" ".ipython/" ".gitconfig" ".git-completion.bash" ".git/" ".gem/" ".fontconfig/" ".enstaller4rc" ".emacs~" ".emacs.d/" ".emacs" ".dvdcss/" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".CFUserTextEncoding" ".canopy/" ".bash_sessions/" ".bash_profile~" ".bash_profile.swo" ".bash_profile" ".bash_history" ".atom/" ".android/" ".#open" "#.bash_profile#" "#*message*-20151221-211658#" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/" (22217 21520 0 0) "Vagrantfile~" "Vagrantfile" "sshkey.pub" "sshkey" "node_modules/" "impossible_octopus_fitness_farm-clone_project/" "id_rsa.pub" "id_rsa" "holbertonschool-low_level_programming/" "holberton/" "expectedoutput" "emacs_backup" "development/" "C_reefinery/" "blog_post/" "assorted/" "0-main.c" ".~lock.t71290 Catalog.odt#" ".~lock.narration_changes.odt#" ".~lock.Legacy Timeline Entirety Cut.docx#" ".~lock.House Rules.docx#" ".vagrant/" ".localized" ".git/" ".DS_Store" "..textClipping" ".#temp.html" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/i_m_not_in_the_loop/" (22216 3262 0 0) "print_char.c" "my_functions.h" "5-main.c" "4-positive_or_not.c" "4-main.c" "3-print_base16.c" "3-main.c" "2-print_tebahpla.c" "2-main.c" "1-print_alphabet.c" "1-main.c" "0-print_z.c" "0-main.c" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/d/fizzbuzz/" (22216 3262 0 0) "my_functions.h" "fizzbuzz.c" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/d/" (22216 3262 0 0) "my_functions.h" "fizzbuzz/" "0-printf_number.c" "0-main.c" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/dreams_and_dedication_are_a_powerful_combination/" (22216 3262 0 0) "print_char.c" "my_functions.h" "4-print_combination_4.c" "4-main.c" "3-print_combination_3.c" "3-main.c" "2-print_combination_2.c" "2-main.c" "1-print_combination_1.c" "1-main.c" "0-print_number.c" "0-main.c" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/keep_calm_and_love_programming/fizzbuzz/" (22216 3650 0 0) "fizzbuzz.c" "a.out" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/keep_calm_and_love_programming/" (22217 16785 0 0) "uppercase" "print_char.c" "prime_factor" "out" "numb3rs" "natural" "natura" "my_functions.h" "fizzbuzz/" "fibonacci" "digits" "absolute" "98" "9-fibonacci.c" "8-natural.c" "6-print_combination_4.c" "6-main.c" "5-print_number.c" "5-main.c" "4-print_combination_2.c" "4-main.c" "3-print_to_98.c" "3-main.c" "2-print_last_digit.c" "2-main.c" "12-fibonacci.c" "11-prime_factor.c" "10-fibonacci.c" "1-uppercase.c" "1-main.c" "0-main.c" "0-absolute.c" "../" "./")
+
+ ("/Users/bennettbuchanan/.emacs.d/elpa/yasnippet-20151212.2133/snippets/c-mode/" (22217 15951 0 0) "unistd" "union" "test~" "test" "string" "stdlib" "stdio" "printf~" "printf" "pchar~" "pchar" "packed" "malloc" "define" "compile" "assert" ".yas-parents" "../" "./")
+
+ ("/Users/bennettbuchanan/.emacs.d/" (22217 15379 0 0) "var/" "url/" "timelog~" "timelog" "tidy.el~" "tidy.el" "themes/" "smex-items" "semanticdb/" "recentf" "notes" "ido.last~" "ido.last" "eshell/" "elpa/" "backups/" "auto-save-list/" "ac-comphist.dat~" "ac-comphist.dat" ".places" ".mc-lists.el" ".DS_Store" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/C_reefinery/" (22216 60778 0 0) "print_squares.c~" "print_squares.c" "print_char.c~" "print_char.c" "main.c~" "main.c" "a.out" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-low_level_programming/" (22216 3262 0 0) "keep_calm_and_love_programming/" "i_m_not_in_the_loop/" "hello_world/" "dreams_and_dedication_are_a_powerful_combination/" "d/" ".git/" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/keep_calm_and_love_programming/" (22215 62113 0 0) "uppercase" "print_char.c~" "print_char.c" "prime_factordsdf" "prime_factor" "numb3rs" "natural" "my_functions.h~" "my_functions.h" "fizzbuzz/" "fibonacci12" "fibonacci" "digits" "absolute" "a.out" "98" "9-fibonacci.c~" "9-fibonacci.c" "8-natural.c~" "8-natural.c" "6-print_combination_4~" "6-print_combination_4.c~" "6-print_combination_4.c" "6-main.c~" "6-main.c" "5-print_number.c~" "5-print_number.c" "5-main.c~" "5-main.c" "4-print_combination_2.c~" "4-print_combination_2.c" "4-main.c~" "4-main.c" "3-print_to_98.c~" "3-print_to_98.c" "3-main.c~" "3-main.c" "2-print_last_digit.c~" "2-print_last_digit.c" "2-main.c~" "2-main.c" "12-fibonacci.c~" "12-fibonacci.c" "11-prime_factor.c~" "11-prime_factor.c" "10-fibonacci.c~" "10-fibonacci.c" "1-uppercase.c~" "1-uppercase.c" "1-main.c~" "1-main.c" "0-main.c~" "0-main.c" "0-absolute.c~" "0-absolute.c" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/keep_calm_and_love_programming/fizzbuzz/" (22214 46975 0 0) "fizzbuzz.c~" "fizzbuzz.c" "a.out" "../" "./")
+
+ ("/Users/bennettbuchanan/.emacs.d/elpa/ido-vertical-mode-20151003.1833/" (22153 50784 0 0) "ido-vertical-mode.elc" "ido-vertical-mode.el" "ido-vertical-mode-pkg.elc" "ido-vertical-mode-pkg.el" "ido-vertical-mode-autoloads.el~" "ido-vertical-mode-autoloads.el" "../" "./")
+
+ ("/Users/bennettbuchanan/.emacs.d/elpa/multiple-cursors-20151205.1225/" (22144 3871 0 0) "rectangular-region-mode.elc" "rectangular-region-mode.el" "multiple-cursors.elc" "multiple-cursors.el" "multiple-cursors-pkg.el" "multiple-cursors-core.elc" "multiple-cursors-core.el" "multiple-cursors-autoloads.el~" "multiple-cursors-autoloads.el" "mc-separate-operations.elc" "mc-separate-operations.el" "mc-mark-pop.elc" "mc-mark-pop.el" "mc-mark-more.elc" "mc-mark-more.el" "mc-hide-unmatched-lines-mode.elc" "mc-hide-unmatched-lines-mode.el" "mc-edit-lines.elc" "mc-edit-lines.el" "mc-cycle-cursors.elc" "mc-cycle-cursors.el" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-sysadmin_devops/security_isn_t_something_that_you_buy_it_s_something_you_do/" (22203 51801 0 0) "2-here_is_my_public_key" "1-explain_it" "0-your_first_key" ".DS_Store" "#2-here_is_my_public_key#" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-sysadmin_devops/what_hath_night_to_do_with_sleep/" (22203 41823 0 0) "2-I_only_sleep_on_odd_hours.sh~" "2-I_only_sleep_on_odd_hours.sh" "1-decimal_for_fun.sh~" "1-decimal_for_fun.sh" "0-I_am_le_tired.sh~" "0-I_am_le_tired.sh" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-sysadmin_devops/" (22203 31981 0 0) "write_to_the_standard_output/" "wherever_there_is_number_there_is_beauty/" "what_hath_night_to_do_with_sleep/" "security_isn_t_something_that_you_buy_it_s_something_you_do/" "read_files/" "find_what_you_want/" "file_and_directory/" "discovering_your_environment/" "command_options/" ".git/" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/i_m_not_in_the_loop/" (22201 2342 0 0) "z~" "z" "tebahpla" "print_char.c~" "print_char.c" "positive_or_not" "numb3rs" "my_functions.h~" "my_functions.h" "hello_holberton" "ex6.c" "ex6" "ex5.c" "ex5" "base16" "alphabet" "5-print_number.c~" "5-print_number.c" "5-main.c~" "5-main.c" "4-positive_or_not.c~" "4-positive_or_not.c" "4-main.c~" "4-main.c" "3-print_base16.c~" "3-print_base16.c" "3-main.c~" "3-main.c" "2-print_tebahpla.c~" "2-print_tebahpla.c" "2-print_hello_holberton.c~" "2-print_hello_holberton.c" "2-main.c~" "2-main.c" "1-print_alphabet.c~" "1-print_alphabet.c" "1-main.c~" "1-main.c" "0-print_z.c~" "0-print_z.c" "0-main.c~" "0-main.c" ".DS_Store" "#0-main.c#" "../" "./")
+
+ ("/usr/" (22173 27638 0 0) "X11R6/" "X11/" "standalone/" "share/" "sbin/" "local/" "libexec/" "lib/" "include/" "bin/" "adic/" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-higher_level_programming/discover_python/" (22198 31348 0 0) "taxes_and_tip_calculator.py" ".DS_Store" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holbertonschool-higher_level_programming/" (22198 29946 0 0) "README.md" "discover_python/" ".git/" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holberton/personal_website_code/" (22185 34784 0 0) "tweets.html" "test.html" "styles.css" "myPath.html" "inspiration.html" "behavior.js" "#test.html#" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holberton/forMigration/" (22177 27098 0 0) "tweets.html~" "tweets.html" "styles.css" "myPath.html~" "myPath.html" "inspiration.html~" "inspiration.html" "index.html~" "index.html" "behavior.js" ".DS_Store" "../" "./")
+
+ ("/usr/include/" (22176 10682 0 0) "zlib.h" "zconf.h" "Xplugin.h" "xpc/" "xlocale.h" "xlocale/" "xattr_flags.h" "xar/" "wordexp.h" "wctype.h" "wchar.h" "vproc.h" "vis.h" "vfs/" "uuid/" "utmpx.h" "utmp.h" "utime.h" "util.h" "unwind.h" "unistd.h" "unctrl.h" "ulimit.h" "ucontext.h" "tzfile.h" "ttyent.h" "tkPlatDecls.h" "tkMacOSX.h" "tkIntXlibDecls.h" "tkDecls.h" "tk.h" "timeconv.h" "time.h" "tidy/" "tic.h" "tgmath.h" "termios.h" "termcap.h" "term_entry.h" "term.h" "tclTomMathDecls.h" "tclTomMath.h" "tclPlatDecls.h" "tclDecls.h" "tcl.h" "TargetConditionals.h" "tar.h" "syslog.h" "sysexits.h" "sys/" "struct.h" "strings.h" "stringlist.h" "string.h" "strhash.h" "stdlib.h" "stdio.h" "stdint.h" "stddef.h" "standards.h" "stab.h" "sqlite3ext.h" "sqlite3.h" "spawn.h" "slapi-plugin.h" "simd/" "signal.h" "sgtty.h" "setjmp.h" "servers/" "semaphore.h" "security/" "secure/" "search.h" "sched.h" "sasl/" "sandbox.h" "runetype.h" "rune.h" "rpcsvc/" "rpc/" "resolv.h" "removefile.h" "regex.h" "readpassphrase.h" "readline/" "ranlib.h" "python2.7/" "python2.6/" "pwd.h" "pthread_spis.h" "pthread_impl.h" "pthread.h" "pthread/" "protocols/" "profile.h" "printf.h" "printerdb.h" "poll.h" "php/" "pexpert/" "pcap.h" "pcap-namedb.h" "pcap-bpf.h" "pcap/" "paths.h" "panel.h" "os/" "odmodule/" "objc/" "ntsid.h" "NSSystemDirectories.h" "notify_keys.h" "notify.h" "nlist.h" "nl_types.h" "nfs/" "netkey/" "netinet6/" "netinet/" "netdb.h" "net-snmp/" "net/" "ndbm.h" "ncurses_dll.h" "ncurses.h" "nc_tparm.h" "nameser.h" "mpool.h" "monitor.h" "monetary.h" "module.modulemap" "module.map" "miscfs/" "menu.h" "memory.h" "membership.h" "math.h" "malloc/" "MacTypes.h" "machine/" "mach_debug/" "mach-o/" "mach/" "locale.h" "localcharset.h" "limits.h" "libxslt/" "libxml2/" "libunwind.h" "libproc.h" "libkern/" "libgen.h" "libexslt/" "libcharset.h" "libc.h" "ldif.h" "ldap_utf8.h" "ldap_schema.h" "ldap_features.h" "ldap_cdefs.h" "ldap.h" "lber_types.h" "lber.h" "launch.h" "langinfo.h" "krb5.h" "krb5/" "kern/" "iso646.h" "inttypes.h" "ifaddrs.h" "iconv.h" "i386/" "histedit.h" "hfs/" "gssapi.h" "gssapi/" "grp.h" "glob.h" "getopt.h" "gethostuuid.h" "get_compat.h" "ftw.h" "fts.h" "fstab.h" "fsproperties.h" "form.h" "fnmatch.h" "fmtmsg.h" "ffi/" "fenv.h" "fcntl.h" "expat_external.h" "expat.h" "execinfo.h" "eti.h" "errno.h" "err.h" "editline/" "dtrace.h" "dns_util.h" "dns_sd.h" "dns.h" "dlfcn.h" "dispatch/" "disktab.h" "dirent.h" "device/" "default_pager/" "db.h" "cxxabi.h" "curses.h" "curl/" "cups/" "ctype.h" "crt_externs.h" "cpio.h" "corpses/" "copyfile.h" "ConditionalMacros.h" "compression.h" "complex.h" "CommonCrypto/" "com_err.h" "checkint.h" "cache_callbacks.h" "cache.h" "c++/" "bzlib.h" "bsm/" "bootstrap.h" "bootparams.h" "Block.h" "bitstring.h" "bank/" "AvailabilityMacros.h" "AvailabilityInternal.h" "Availability.h" "atm/" "AssertMacros.h" "assert.h" "asl.h" "arpa/" "architecture/" "ar.h" "apr-1/" "apache2/" "alloca.h" "aliasdb.h" "aio.h" "_xlocale.h" "_wctype.h" "_types.h" "_types/" "_locale.h" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/holberton/" (22177 7653 0 0) "tweets1.html" "test1.js" "test.js" "terminalLoggedIn" "terminalHTMLStage" "siteFiles/" "serverNotDisplayingInBrowser" "personal_website_code/" "pathways.html" "OptionalSectionOverview.pdf" "levelScreenShots/" "index.html~" "index.html" "HTML Instructions.pdf" "Holberton Free Tuition/" "forMigration/" "emacsFileCreation" ".DS_Store" "#testcss.css#" "#test.js#" "../" "./")
+
+ ("/Users/bennettbuchanan/Library/Mail/V3/MailData/" (22175 58908 0 0) "VIPSenders.plist" "VersionedSmartMailboxes.plist.backup" "VersionedSmartMailboxes.plist" "UnsyncedRules.plist" "SyncedSmartMailboxes.plist" "SyncedRules.plist" "SyncedFilesInfo.plist" "SmartMailboxesLocalProperties.plist" "SmartMailboxes.plist.backup" "SmartMailboxes.plist" "Signatures/" "RulesActiveState.plist" "OpenedAttachmentsV2.plist" "MessageUidsAlreadyDownloaded3-wal" "MessageUidsAlreadyDownloaded3-shm" "MessageUidsAlreadyDownloaded3" "MessageRules.plist.backup" "MessageRules.plist" "LSMMap2" "FlagMailboxes.plist" "ExternalUpdates.storedata-wal" "ExternalUpdates.storedata-shm" "ExternalUpdates.storedata" "Envelope Index-wal" "Envelope Index-shm" "Envelope Index" "DefaultCounts" "BackupTOC.plist" "AvailableFeeds-wal" "AvailableFeeds-shm" "AvailableFeeds" ".DS_Store" "../" "./")
+
+ ("/Users/bennettbuchanan/Library/Mail/V3/MailData/Signatures/" (22175 58980 0 0) "SignaturesByAccount.plist" "AllSignatures.plist" "AccountsMap.plist" "86A178FD-60DD-4BF0-A5E9-B5B0C0EEB3C9.mailsignature~" "86A178FD-60DD-4BF0-A5E9-B5B0C0EEB3C9.mailsignature" ".DS_Store" "../" "./")
+
+ ("/Users/bennettbuchanan/Library/" (22173 37350 0 0) "Widgets/" "WebKit/" "Voices/" "VirtualBox/" "TextWrangler/" "SyncedPreferences/" "Suggestions/" "StickiesDatabase" "Spotlight/" "Spelling/" "Sounds/" "Services/" "Screen Savers/" "Saved Application State/" "Safari/" "PubSub/" "Printers/" "Preferences/" "PreferencePanes/" "PDF Services/" "Mobile Documents/" "Metadata/" "Messages/" "Mail Downloads/" "Mail/" "Logs/" "LaunchAgents/" "LanguageModeling/" "Keychains/" "Keyboard Layouts/" "iTunes/" "Internet Plug-Ins/" "Input Methods/" "iMovie/" "IdentityServices/" "Group Containers/" "Google/" "Fonts Disabled/" "Fonts/" "FontCollections/" "Filters/" "Favorites/" "Enthought/" "Dictionaries/" "Developer/" "CoreFollowUp/" "CoreData/" "Cookies/" "Containers/" "Compositions/" "com.apple.nsurlsessiond/" "ColorSync/" "Colors/" "ColorPickers/" "Canopy/" "Calendars/" "Caches/" "Autosave Information/" "Audio/" "Assistants/" "Application Support/" "Application Scripts/" "Address Book Plug-Ins/" "Accounts/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/bennettbuchanan/Library/Mail/" (22171 4719 0 0) "V3/" "V2/" ".DS_Store" "../" "./")
+
+ ("/Users/bennettbuchanan/Library/Mail/V3/" (22175 53821 0 0) "RSS/" "POP-programs@mangalamresearch.org@mail.mangalamcenters.org/" "POP-bennettb@mangalamresearch.org@mail.mangalamresearch.org/" "POP-bennett.buchanan@verizon.net@pop.verizon.net/" "POP-bennett.buchanan@pop.verizon.net/" "MailData/" "Mailboxes/" "IMAP-buchanan3rd@imap.gmail.com/" "IMAP-bennettbuchanan1@imap.gmail.com/" "11B09146-0B75-469E-9899-93DF4F9D059F/" ".DS_Store" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/visualizations/D3/stackedBarChart/" (22167 54989 0 0) "vikalpaData.tsv" "test1.csv" "test.csv" "stackedBarChart.csv" "stackedBarChart(2).csv" "stackedBarChart(1).csv" "singleGradientForGist.html" "singleGradientForGist" "semanticFieldSourcesStackedBar.html" "SemanticFieldSourceLemmataStackedBar" "ProgrammingExample.html" "originalImmigrantsCSVFiles/" "Migrant vs refugee Interlingual comparison" "lemmataSemanticFieldSourcesStackedBarWithConnotation.csv" "lemmataSemanticFieldSourcesStackedBarOriginal.csv" "lemmataSemanticFieldSourcesStackedBarNumericalOrder.csv" "lemmataSemanticFieldSourcesStackedBar.html" "lemmataSemanticFieldSourcesStackedBar.csv" "lemmataGroupedMove1.html" "lemmataGroupedMove.html" "lemmataAcrossSources.html" "lemmataAcrossSources.csv" "KLPdataProcessed.tsv" "klpAndViklpData.tsv" "klpAndViklp.html" "KLP.html~" "KLP.html" "indexWithGradient.html" "indexVerticalGradientSingle.html" "indexVerticalGradient1.html" "indexVerticalGradient.html" "indexVeritcalGradient.html" "index1.html" "index.html" "immigrantArticlesBarChart9.30.csv" "immigrantArticlesBarChart9.29.csv" "immigrantArticlesBarChart10.2.csv" "dataKLP.csv" "data.csv" "d3.min.js" "bootstrap.min.css" ".DS_Store" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/visualizations/D3/" (22055 1578 0 0) "test/" "sunburstFrequency/" "stackedBarChart/" "Reingold–TilfordTree/" "practice/" "parallelCoordinates/" "packLayout/" "networkMapFixed/" "networkMap/" "matrix/" "maps/" "lineGraph/" "interactive_network_demo/" "d3/" "collapsibleTree/" "ClustersForceLayout/" "BtwZoomableSunburst/" ".DS_Store" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/visualizations/" (22127 4727 0 0) "Wordle/" "Reference Files/" "packLayoutNetwork/" "networkMaps/" "Javascript Files/" "GitHub/" "Gephi/" "DataVizProject/" "dataFixedMMKPP.json" "D3 Shared/" "D3/" "CSS/" "Company Network Map/" ".DS_Store" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/mangalam_research/BTW Website HTML/" (22174 30803 0 0) "programmingExample.html" "people.html~" "people.html" "news.html~" "news.html" "meaning_mapper.html~" "meaning_mapper.html" "homepageFinal.html~" "homepageFinal.html" "homepage_update_1_5.html~" "homepage1.html" "homepage.html~" "homepage.html" "currentDevelopmentPageBTW.html~" "current_development.html~" "current_development.html" "BTW Introductory LigeiaComment_SecondRound copy.rtf" ".#people.html" ".#current_development.html" "#people.html#" "#current_development.html#" "../" "./")
+
+ ("/Users/bennettbuchanan/.emacs.d/elpa/yasnippet-20151212.2133/snippets/" (22140 13365 0 0) "yaml-mode/" "udev-mode/" "typerex-mode" "tuareg-mode/" "text-mode/" "sql-mode/" "snippets/" "snippet-mode/" "sh-mode/" "scala-mode/" "ruby-mode/" "rst-mode/" "rename_add_contr.py" "README.md" "python-mode/" "prog-mode/" "perl-mode/" "org-mode/" "octave-mode/" "nxml-mode/" "nsis-mode/" "nesc-mode/" "ned-mode/" "markdown-mode/" "malabar-mode/" "makefile-mode/" "makefile-gmake-mode/" "makefile-bsdmake-mode/" "makefile-automake-mode/" "m4-mode/" "lua-mode/" "lisp-mode/" "lisp-interaction-mode/" "LICENSE" "latex-mode/" "js2-mode" "js-mode/" "java-mode/" "html-mode/" "haskell-mode/" "groovy-mode/" "go-mode/" "git-commit-mode/" "fundamental-mode/" "f90-mode/" "erlang-mode/" "erc-mode/" "ensime-mode" "enh-ruby-mode" "emacs-lisp-mode/" "elixir-mode/" "css-mode/" "csharp-mode/" "cpp-omnet-mode/" "cperl-mode/" "CONTRIBUTORS.txt" "conf-unix-mode/" "cmake-mode/" "clojure-mode/" "cider-repl-mode" "chef-mode/" "cc-mode/" "c-mode/" "c++-mode/" "applescript-mode/" "antlr-mode/" ".nosearch" ".gitignore" "../" "./")
+
+ ("/Users/bennettbuchanan/.emacs.d/elpa/yasnippet-20151212.2133/" (22140 13366 0 0) "yasnippet.el" "yasnippet-pkg.el" "yasnippet-autoloads.el~" "yasnippet-autoloads.el" "snippets/" "../" "./")
+
+ ("/Users/bennettbuchanan/.emacs.d/elpa/" (22155 18583 0 0) "yasnippet-20151212.2133/" "with-editor-20151223.1341/" "windresize-readme.txt" "windresize-0.1/" "window-number-readme.txt" "window-number-20140123.1902/" "web-mode-20151218.1400/" "web-beautify-20131118.226/" "unicode-fonts-20150826.1532/" "undo-tree-20140509.522/" "ucs-utils-20150826.714/" "tablist-20150618.2218/" "tabbar-20141109.143/" "sublimity/" "solarized-theme-20151211.535/" "smooth-scroll.el~" "smex-20151212.1409/" "skewer-mode-20150914.1304/" "simple-httpd-20150430.1755/" "s-20150924.406/" "ruby-test-mode-20151127.18/" "rainbow-mode-0.12/" "popup-20151222.1339/" "persistent-soft-20150223.1053/" "pdf-tools-20151224.1159/" "pcache-20151109.639/" "nvm-20151113.55/" "neotree-20151101.607/" "multiple-cursors-20151205.1225/" "minimap/" "magit-popup-20151223.1341/" "magit-20151223.1425/" "list-utils-20140508.1341/" "linum-relative-20151205.1756/" "let-alist-1.0.4/" "js2-mode-20151130.405/" "js-comint-20151126.1838/" "indent-guide-20151119.717/" "impatient-mode-20150501.247/" "ido-vertical-mode-20151003.1833/" "icicles-20151231.1515/" "httpd-1.0.1/" "htmlize-20130207.1202/" "hlinum-20150621.1933/" "helm-core-20151231.1143/" "google-this-20150522.240/" "god-mode-20151005.925/" "git-commit-20151111.418/" "font-utils-20150806.1051/" "f-20151113.123/" "expand-region-20150902.558/" "ergoemacs-mode-20151221.633/" "enwc-readme.txt" "emmet-mode-20151213.738/" "direx-20151023.1606/" "dash-functional-20150828.413/" "dash-20151216.1315/" "darkroom-readme.txt" "darkroom-0.1/" "bongo-20151205.809/" "auto-complete-20151211.227/" "async-20151123.256/" "arjen-grey-theme-readme.txt" "arjen-grey-theme-20150731.645/" "archives/" "anti-zenburn-theme-readme.txt" "annoying-arrows-mode-20151113.902/" "ample-zen-theme-readme.txt" "ample-zen-theme-20150119.1354/" "ample-theme-readme.txt" "ample-theme-20150814.1101/" "aggressive-indent-readme.txt" "aggressive-indent-1.4/" "aggressive-fill-paragraph-readme.txt" "adaptive-wrap-readme.txt" "adaptive-wrap-0.5/" "ace-window-readme.txt" "ace-jump-mode-20140616.115/" "ac-html-readme.txt" "ac-html-20151005.31/" "abyss-theme-readme.txt" "abyss-theme-20151007.408/" ".git/" "../" "./")
+
+ ("/Users/" (22171 1477 0 0) "Shared/" "bennettbuchanan/" ".localized" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/development/" (22170 32708 0 0) "~.emacs" "js/" "index.html~" "index.html" "images/" "development_altered/" "css/" ".DS_Store" "#index.html#" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/development/css/" (22150 6491 0 0) "style.css~" "style.css.map" "style.css" ".DS_Store" "#style.css#" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/responsive/builds/development/" (22144 53711 0 0) "js/" "index.html" "css/" ".DS_Store" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/responsive/builds/" (22143 16473 0 0) "development/" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/responsive/" (22143 27551 0 0) "README.md" "package.json" "node_modules/" "gulpfile.js" "components/" "builds/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/jolene_website/jolene_site_new/components/" (22143 28353 0 0) "scripts/" "sass/" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/jolene_website/jolene_site_new/builds/" (22145 54770 0 0) ".DS_Store" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/jolene_website/jolene_site_new/" (22143 29435 0 0) "node_modules/" "gulpfile.js" "components/" "builds/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/jolene_website/" (22156 9651 0 0) "work_samples.html~" "work_samples.html" "stylestest.css~" "stylestest.css" "styles.css~" "styles.css" "siteContent.html" "jolene_site_new/" "indextest.html~" "indextest.html" "index.html~" "index.html" "contact.html~" "contact.html" "behavior.js~" "behavior.js" "about.html~" "about.html" ".DS_Store" ".#indextest.html" ".#index.html" "#indextest.html#" "#index.html#" "../" "./")
+
+ ("/Users/bennettbuchanan/Desktop/mangalam_research/" (22156 9645 0 0) "Timeline/" "Sanskrit Summer Intensive/" "Sanskrit Seminar/" "Publication/" "Path of Action Readings/" "Other/" "Old Sites/" "NEH Progress Report/" "NEH Grant Application/" "Language of the Sutras Conference/" "June 2014 Roxy Transmission Manual Final.doc" "Inside Knowledge Production/" "HT Data Research/" "Hadot Conference/" "Gesar Production/" "flex/" "BTW Website HTML/" "BTW/" "Bruno PDFs/" "BPPE/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

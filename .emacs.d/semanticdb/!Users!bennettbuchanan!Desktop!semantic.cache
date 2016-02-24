@@ -1,0 +1,33 @@
+;; Object Desktop/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Desktop/"
+  :tables
+  (list
+    (semanticdb-table "fiddle.js"
+      :major-mode 'js-mode
+      :tags 
+        '( ("prettyAlert" function (:arguments 
+              ( ("p_message" variable nil (reparse-symbol FormalParameterList) [103 112])
+                ("p_title" variable nil (reparse-symbol FormalParameterList) [114 121]))              ) nil [82 390])
+            ("calcUnits" function (:arguments 
+              ( ("type" variable nil (reparse-symbol FormalParameterList) [2426 2430]))              ) nil [2406 2596])
+            ("clickAlert" function (:arguments 
+              ( ("label" variable nil (reparse-symbol FormalParameterList) [2620 2625]))              ) nil [2599 2630])
+            ("magnify" function (:arguments 
+              ( ("node" variable nil (reparse-symbol FormalParameterList) [2702 2706]))              ) nil [2685 3100])
+            ("reposition" function (:arguments 
+              ( ("node" variable nil (reparse-symbol FormalParameterList) [3201 3205])
+                ("x" variable nil (reparse-symbol FormalParameterList) [3207 3208])
+                ("k" variable nil (reparse-symbol FormalParameterList) [3210 3211]))              ) nil [3181 3398])
+            ("stash" function (:arguments 
+              ( ("d" variable nil (reparse-symbol FormalParameterList) [3474 3475]))              ) nil [3459 3506])
+            ("arcTween" function (:arguments 
+              ( ("a" variable nil (reparse-symbol FormalParameterList) [3579 3580]))              ) nil [3561 3733]))          
+      :file "fiddle.js"
+      :pointmax 3751
+      :fsize 3750
+      :lastmodtime '(22148 7974 0 0)
+      :unmatched-syntax '((VARIABLE 1113 . 1115) (PAREN_BLOCK 1120 . 2388) (PAREN_BLOCK 1062 . 1109) (DOT 1050 . 1051) (PAREN_BLOCK 1009 . 1049) (DOT 997 . 998) (PAREN_BLOCK 960 . 996) (DOT 951 . 952) (PAREN_BLOCK 921 . 950) (DOT 910 . 911) (VAR 887 . 890) (PAREN_BLOCK 907 . 909) (PAREN_BLOCK 851 . 884) (DOT 845 . 846) (PAREN_BLOCK 775 . 844) (DOT 766 . 767) (PAREN_BLOCK 743 . 765) (DOT 738 . 739) (PAREN_BLOCK 731 . 737) (DOT 726 . 727) (VAR 688 . 691) (PAREN_BLOCK 723 . 725) (PAREN_BLOCK 630 . 685) (DOT 625 . 626) (PAREN_BLOCK 615 . 624) (DOT 608 . 609) (PAREN_BLOCK 594 . 607) (DOT 589 . 590) (PAREN_BLOCK 576 . 588) (DOT 571 . 572) (PAREN_BLOCK 559 . 570) (DOT 552 . 553) (VAR 523 . 526) (PAREN_BLOCK 542 . 552) (PAREN_BLOCK 497 . 520) (DOT 491 . 492) (PAREN_BLOCK 472 . 490) (DOT 466 . 467) (PAREN_BLOCK 439 . 465) (DOT 434 . 435) (PAREN_BLOCK 426 . 433) (DOT 419 . 420) (VARIABLE 391 . 400) (PAREN_BLOCK 410 . 418) (PAREN_BLOCK 75 . 77) (DIV 42 . 43) (PAREN_BLOCK 35 . 41))))
+  :file "!Users!bennettbuchanan!Desktop!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

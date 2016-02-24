@@ -1,0 +1,394 @@
+;; Object development/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "development/"
+  :tables
+  (list
+    (semanticdb-table "index.html"
+      :major-mode 'html-mode
+      :tags 
+        '( ("Jolene Hernon" section nil nil [69 299])
+            ("Jolene Hernon" section nil nil [299 484])
+            ("Jolene Hernon" section (:members 
+              ( ("Jolene Hernon" section (:members 
+                  ( ("Editor" section (:members 
+                      ( ("Jolene <span>Hernon" anchor nil nil [639 642])
+                        ("Jolene <span>Hernon" anchor nil nil [813 816]))                      ) nil [612 1347]))                  ) nil [581 1347])
+                ("Resume" section (:members 
+                  ( ("U.S. Department of Justice, National Institute of Justice" section (:members 
+                      ( ("Private Sector" section nil nil [2790 2993])
+                        ("U.S. Congress" section nil nil [2993 3071])
+                        ("Education" section nil nil [3071 3249])
+                        ("Awards & Recognition" section nil nil [3249 3753]))                      ) nil [1981 3753]))                  ) nil [1347 3753])
+                ("Work Samples" section (:members 
+                  ( ("Editor-in-Chief, NIJ Journal. See “<a href=\"https://www.ncjrs.gov/pdffiles1/nij/247877.pdf\">Message from the Editor-in-Chief" anchor nil nil [3851 3854])
+                    ("Message from the Editor-in-Chief" anchor nil nil [4027 4030])
+                    ("Supervising Project Manager and Lead Editor, “<a href=\"http://www.nij.gov/unsubmitted-kits/Pages/default.aspx\">Using Science to Find Solutions: Unsubmitted Sexual Assault Kits" anchor nil nil [4178 4181])
+                    ("Using Science to Find Solutions: Unsubmitted Sexual Assault Kits" anchor nil nil [4388 4391])
+                    ("Lead writer-editor and production coordinator,<a href=\"http://www.nij.gov/publications/pages/annual-reports.aspx\">NIJ Annual Report to Congress" anchor nil nil [4605 4608])
+                    ("NIJ Annual Report to Congress" anchor nil nil [4821 4824]))                  ) nil [3753 5178])
+                ("Services" section nil nil [5178 6012])
+                ("Contact" section (:members 
+                  ( ("/*
+ * L.TileLayer.Grayscale is a regular tilelayer with grayscale makeover.
+ */
+
+L.TileLayer.Grayscale = L.TileLayer.extend({
+	options: {
+		enableCanvas: true,
+		quotaRed: 3,
+		quotaGreen: 4,
+		quotaBlue: 1,
+		quotaDividerTune: 0,
+		quotaDivider: function() {
+			return this.quotaRed + this.quotaGreen + this.quotaBlue + this.quotaDividerTune;
+		}
+	},
+
+	initialize: function (url, options) {
+		var canvasEl = document.createElement('canvas');
+		if( !(canvasEl.getContext && canvasEl.getContext('2d')) ) {
+			options.enableCanvas = false;
+		}
+
+		L.TileLayer.prototype.initialize.call(this, url, options);
+	},
+
+	_loadTile: function (tile, tilePoint) {
+		tile.setAttribute('crossorigin', 'anonymous');
+		L.TileLayer.prototype._loadTile.call(this, tile, tilePoint);
+	},
+
+	_tileOnLoad: function () {
+		if (this._layer.options.enableCanvas && !this.canvasContext) {
+			var canvas = document.createElement(\"canvas\");
+			canvas.width = canvas.height = this._layer.options.tileSize;
+			this.canvasContext = canvas.getContext(\"2d\");
+		}
+		var ctx = this.canvasContext;
+
+		if (ctx) {
+			this.onload  = null; // to prevent an infinite loop
+			ctx.drawImage(this, 0, 0);
+			var imgd = ctx.getImageData(0, 0, this._layer.options.tileSize, this._layer.options.tileSize);
+			var pix = imgd.data;
+			for (var i = 0, n = pix.length; i < n; i += 4) {
+				pix[i] = pix[i + 1] = pix[i + 2] = (this._layer.options.quotaRed * pix[i] + this._layer.options.quotaGreen * pix[i + 1] + this._layer.options.quotaBlue * pix[i + 2]) / this._layer.options.quotaDivider();
+			}
+			ctx.putImageData(imgd, 0, 0);
+			this.removeAttribute(\"crossorigin\");
+			this.src = ctx.canvas.toDataURL();
+		}
+
+		L.TileLayer.prototype._tileOnLoad.call(this);
+	}
+});
+
+L.tileLayer.grayscale = function (url, options) {
+	return new L.TileLayer.Grayscale(url, options);
+};" anchor nil nil [6344 6347])
+                    ("/*
+ * L.TileLayer.Grayscale is a regular tilelayer with grayscale makeover.
+ */
+
+L.TileLayer.Grayscale = L.TileLayer.extend({
+	options: {
+		enableCanvas: true,
+		quotaRed: 3,
+		quotaGreen: 4,
+		quotaBlue: 1,
+		quotaDividerTune: 0,
+		quotaDivider: function() {
+			return this.quotaRed + this.quotaGreen + this.quotaBlue + this.quotaDividerTune;
+		}
+	},
+
+	initialize: function (url, options) {
+		var canvasEl = document.createElement('canvas');
+		if( !(canvasEl.getContext && canvasEl.getContext('2d')) ) {
+			options.enableCanvas = false;
+		}
+
+		L.TileLayer.prototype.initialize.call(this, url, options);
+	},
+
+	_loadTile: function (tile, tilePoint) {
+		tile.setAttribute('crossorigin', 'anonymous');
+		L.TileLayer.prototype._loadTile.call(this, tile, tilePoint);
+	},
+
+	_tileOnLoad: function () {
+		if (this._layer.options.enableCanvas && !this.canvasContext) {
+			var canvas = document.createElement(\"canvas\");
+			canvas.width = canvas.height = this._layer.options.tileSize;
+			this.canvasContext = canvas.getContext(\"2d\");
+		}
+		var ctx = this.canvasContext;
+
+		if (ctx) {
+			this.onload  = null; // to prevent an infinite loop
+			ctx.drawImage(this, 0, 0);
+			var imgd = ctx.getImageData(0, 0, this._layer.options.tileSize, this._layer.options.tileSize);
+			var pix = imgd.data;
+			for (var i = 0, n = pix.length; i < n; i += 4) {
+				pix[i] = pix[i + 1] = pix[i + 2] = (this._layer.options.quotaRed * pix[i] + this._layer.options.quotaGreen * pix[i + 1] + this._layer.options.quotaBlue * pix[i + 2]) / this._layer.options.quotaDivider();
+			}
+			ctx.putImageData(imgd, 0, 0);
+			this.removeAttribute(\"crossorigin\");
+			this.src = ctx.canvas.toDataURL();
+		}
+
+		L.TileLayer.prototype._tileOnLoad.call(this);
+	}
+});
+
+L.tileLayer.grayscale = function (url, options) {
+	return new L.TileLayer.Grayscale(url, options);
+};" anchor nil nil [6478 6481])
+                    ("/*
+ * L.TileLayer.Grayscale is a regular tilelayer with grayscale makeover.
+ */
+
+L.TileLayer.Grayscale = L.TileLayer.extend({
+	options: {
+		enableCanvas: true,
+		quotaRed: 3,
+		quotaGreen: 4,
+		quotaBlue: 1,
+		quotaDividerTune: 0,
+		quotaDivider: function() {
+			return this.quotaRed + this.quotaGreen + this.quotaBlue + this.quotaDividerTune;
+		}
+	},
+
+	initialize: function (url, options) {
+		var canvasEl = document.createElement('canvas');
+		if( !(canvasEl.getContext && canvasEl.getContext('2d')) ) {
+			options.enableCanvas = false;
+		}
+
+		L.TileLayer.prototype.initialize.call(this, url, options);
+	},
+
+	_loadTile: function (tile, tilePoint) {
+		tile.setAttribute('crossorigin', 'anonymous');
+		L.TileLayer.prototype._loadTile.call(this, tile, tilePoint);
+	},
+
+	_tileOnLoad: function () {
+		if (this._layer.options.enableCanvas && !this.canvasContext) {
+			var canvas = document.createElement(\"canvas\");
+			canvas.width = canvas.height = this._layer.options.tileSize;
+			this.canvasContext = canvas.getContext(\"2d\");
+		}
+		var ctx = this.canvasContext;
+
+		if (ctx) {
+			this.onload  = null; // to prevent an infinite loop
+			ctx.drawImage(this, 0, 0);
+			var imgd = ctx.getImageData(0, 0, this._layer.options.tileSize, this._layer.options.tileSize);
+			var pix = imgd.data;
+			for (var i = 0, n = pix.length; i < n; i += 4) {
+				pix[i] = pix[i + 1] = pix[i + 2] = (this._layer.options.quotaRed * pix[i] + this._layer.options.quotaGreen * pix[i + 1] + this._layer.options.quotaBlue * pix[i + 2]) / this._layer.options.quotaDivider();
+			}
+			ctx.putImageData(imgd, 0, 0);
+			this.removeAttribute(\"crossorigin\");
+			this.src = ctx.canvas.toDataURL();
+		}
+
+		L.TileLayer.prototype._tileOnLoad.call(this);
+	}
+});
+
+L.tileLayer.grayscale = function (url, options) {
+	return new L.TileLayer.Grayscale(url, options);
+};" anchor nil nil [6624 6627]))                  ) nil [6012 6821]))              ) nil [484 6821])
+            ("/*
+ * L.TileLayer.Grayscale is a regular tilelayer with grayscale makeover.
+ */
+
+L.TileLayer.Grayscale = L.TileLayer.extend({
+	options: {
+		enableCanvas: true,
+		quotaRed: 3,
+		quotaGreen: 4,
+		quotaBlue: 1,
+		quotaDividerTune: 0,
+		quotaDivider: function() {
+			return this.quotaRed + this.quotaGreen + this.quotaBlue + this.quotaDividerTune;
+		}
+	},
+
+	initialize: function (url, options) {
+		var canvasEl = document.createElement('canvas');
+		if( !(canvasEl.getContext && canvasEl.getContext('2d')) ) {
+			options.enableCanvas = false;
+		}
+
+		L.TileLayer.prototype.initialize.call(this, url, options);
+	},
+
+	_loadTile: function (tile, tilePoint) {
+		tile.setAttribute('crossorigin', 'anonymous');
+		L.TileLayer.prototype._loadTile.call(this, tile, tilePoint);
+	},
+
+	_tileOnLoad: function () {
+		if (this._layer.options.enableCanvas && !this.canvasContext) {
+			var canvas = document.createElement(\"canvas\");
+			canvas.width = canvas.height = this._layer.options.tileSize;
+			this.canvasContext = canvas.getContext(\"2d\");
+		}
+		var ctx = this.canvasContext;
+
+		if (ctx) {
+			this.onload  = null; // to prevent an infinite loop
+			ctx.drawImage(this, 0, 0);
+			var imgd = ctx.getImageData(0, 0, this._layer.options.tileSize, this._layer.options.tileSize);
+			var pix = imgd.data;
+			for (var i = 0, n = pix.length; i < n; i += 4) {
+				pix[i] = pix[i + 1] = pix[i + 2] = (this._layer.options.quotaRed * pix[i] + this._layer.options.quotaGreen * pix[i + 1] + this._layer.options.quotaBlue * pix[i + 2]) / this._layer.options.quotaDivider();
+			}
+			ctx.putImageData(imgd, 0, 0);
+			this.removeAttribute(\"crossorigin\");
+			this.src = ctx.canvas.toDataURL();
+		}
+
+		L.TileLayer.prototype._tileOnLoad.call(this);
+	}
+});
+
+L.tileLayer.grayscale = function (url, options) {
+	return new L.TileLayer.Grayscale(url, options);
+};" section nil nil [6821 6858])
+            ("/*
+ * L.TileLayer.Grayscale is a regular tilelayer with grayscale makeover.
+ */
+
+L.TileLayer.Grayscale = L.TileLayer.extend({
+	options: {
+		enableCanvas: true,
+		quotaRed: 3,
+		quotaGreen: 4,
+		quotaBlue: 1,
+		quotaDividerTune: 0,
+		quotaDivider: function() {
+			return this.quotaRed + this.quotaGreen + this.quotaBlue + this.quotaDividerTune;
+		}
+	},
+
+	initialize: function (url, options) {
+		var canvasEl = document.createElement('canvas');
+		if( !(canvasEl.getContext && canvasEl.getContext('2d')) ) {
+			options.enableCanvas = false;
+		}
+
+		L.TileLayer.prototype.initialize.call(this, url, options);
+	},
+
+	_loadTile: function (tile, tilePoint) {
+		tile.setAttribute('crossorigin', 'anonymous');
+		L.TileLayer.prototype._loadTile.call(this, tile, tilePoint);
+	},
+
+	_tileOnLoad: function () {
+		if (this._layer.options.enableCanvas && !this.canvasContext) {
+			var canvas = document.createElement(\"canvas\");
+			canvas.width = canvas.height = this._layer.options.tileSize;
+			this.canvasContext = canvas.getContext(\"2d\");
+		}
+		var ctx = this.canvasContext;
+
+		if (ctx) {
+			this.onload  = null; // to prevent an infinite loop
+			ctx.drawImage(this, 0, 0);
+			var imgd = ctx.getImageData(0, 0, this._layer.options.tileSize, this._layer.options.tileSize);
+			var pix = imgd.data;
+			for (var i = 0, n = pix.length; i < n; i += 4) {
+				pix[i] = pix[i + 1] = pix[i + 2] = (this._layer.options.quotaRed * pix[i] + this._layer.options.quotaGreen * pix[i + 1] + this._layer.options.quotaBlue * pix[i + 2]) / this._layer.options.quotaDivider();
+			}
+			ctx.putImageData(imgd, 0, 0);
+			this.removeAttribute(\"crossorigin\");
+			this.src = ctx.canvas.toDataURL();
+		}
+
+		L.TileLayer.prototype._tileOnLoad.call(this);
+	}
+});
+
+L.tileLayer.grayscale = function (url, options) {
+	return new L.TileLayer.Grayscale(url, options);
+};" section nil nil [6858 6933])
+            ("/*
+ * L.TileLayer.Grayscale is a regular tilelayer with grayscale makeover.
+ */
+
+L.TileLayer.Grayscale = L.TileLayer.extend({
+	options: {
+		enableCanvas: true,
+		quotaRed: 3,
+		quotaGreen: 4,
+		quotaBlue: 1,
+		quotaDividerTune: 0,
+		quotaDivider: function() {
+			return this.quotaRed + this.quotaGreen + this.quotaBlue + this.quotaDividerTune;
+		}
+	},
+
+	initialize: function (url, options) {
+		var canvasEl = document.createElement('canvas');
+		if( !(canvasEl.getContext && canvasEl.getContext('2d')) ) {
+			options.enableCanvas = false;
+		}
+
+		L.TileLayer.prototype.initialize.call(this, url, options);
+	},
+
+	_loadTile: function (tile, tilePoint) {
+		tile.setAttribute('crossorigin', 'anonymous');
+		L.TileLayer.prototype._loadTile.call(this, tile, tilePoint);
+	},
+
+	_tileOnLoad: function () {
+		if (this._layer.options.enableCanvas && !this.canvasContext) {
+			var canvas = document.createElement(\"canvas\");
+			canvas.width = canvas.height = this._layer.options.tileSize;
+			this.canvasContext = canvas.getContext(\"2d\");
+		}
+		var ctx = this.canvasContext;
+
+		if (ctx) {
+			this.onload  = null; // to prevent an infinite loop
+			ctx.drawImage(this, 0, 0);
+			var imgd = ctx.getImageData(0, 0, this._layer.options.tileSize, this._layer.options.tileSize);
+			var pix = imgd.data;
+			for (var i = 0, n = pix.length; i < n; i += 4) {
+				pix[i] = pix[i + 1] = pix[i + 2] = (this._layer.options.quotaRed * pix[i] + this._layer.options.quotaGreen * pix[i + 1] + this._layer.options.quotaBlue * pix[i + 2]) / this._layer.options.quotaDivider();
+			}
+			ctx.putImageData(imgd, 0, 0);
+			this.removeAttribute(\"crossorigin\");
+			this.src = ctx.canvas.toDataURL();
+		}
+
+		L.TileLayer.prototype._tileOnLoad.call(this);
+	}
+});
+
+L.tileLayer.grayscale = function (url, options) {
+	return new L.TileLayer.Grayscale(url, options);
+};" section nil nil [6933 8773])
+            ("var map = L.map('map').setView([38.89851, -77.02583], 13);
+
+     map.scrollWheelZoom.disable();
+
+
+L.tileLayer.grayscale('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href=\"http://osm.org/copyright\">OpenStreetMap" section (:members 
+              ( ("OpenStreetMap" anchor nil nil [8972 8975]))              ) nil [8773 9215]))          
+      :file "index.html"
+      :pointmax 9215
+      :fsize 9222
+      :lastmodtime '(22148 7971 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!bennettbuchanan!Desktop!development!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
